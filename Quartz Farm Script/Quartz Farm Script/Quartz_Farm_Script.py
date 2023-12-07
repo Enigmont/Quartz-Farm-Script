@@ -5,13 +5,6 @@ import mouseinfo
 import mouse
 import pynput
 import time
-#hwnd = win32gui.GetForegroundWindow()
-#win32gui.ShowWindow(hwnd, win32.con.SW_MAXIMIZE)
-# print(pyautogui.size())
-#time.sleep(10)
-#pyautogui.hotkey("W", duration=3)
-#pyautogui.click(65, 20, duration=3)
-# pyautogui.scroll(-200)
 
 def move_forward(seconds):
     pt.keyDown('w')
